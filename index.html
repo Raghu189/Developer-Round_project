@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-wLHzMoQRj2cl6OLoCXTNZzH5Kv4rXjDTsn2F98cXl89sU4ZIjJ00yLQXixmldutThWvAOMZCbZADFKGWuzXe0A==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <!-- Add Slick theme CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<!-- sliding links -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+</head>
+<body>
+    <!-- /* -----------------------------                  ---------------------
+                                  HERO SECTION
+-----------------------------                   -------------------- */ -->
+<section class="hero">
+    <div class="hero-overlay"></div> <!-- Overlay for the hero section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">raghu.com</a>
+            <!-- Navbar toggler button for smaller devices -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Team</a></li>
+                            <li><a class="dropdown-item" href="#">Mission</a></li>
+                            <li><a class="dropdown-item" href="#">Vision</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5"> <!-- Added margin and padding -->
+        <div class="row">
+            <div class="col-md-12 text-center mt-lg-5">
+                <h1 class="welocme">Welcome to raghu.com</h1>
+                <p class="welocme">Explore our services and portfolio</p>
+                <button type="button" class="btn btn-primary">Get More</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+    <!-- /* -----------------------------                  ---------------------
+                                  Grid Photo Gallery
+-----------------------------                   -------------------- */ -->
+
+<div class="container">
+    <section class="gallery-section mt-4">
+        <div class="row">
+           
+            <div class="col-md-4 text-center">
+                <img src="https://via.placeholder.com/300x400" alt="Image 2" class="img-fluid gallery-item aspect-ratio-1x1">
+                <img src="https://via.placeholder.com/300x200" alt="Image 5" class="img-fluid gallery-item aspect-ratio-3x2">
+
+            </div>
+            
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300x200" alt="Image 5" class="img-fluid gallery-item aspect-ratio-3x2">
+                <img src="https://via.placeholder.com/300x400" alt="Image 2" class="img-fluid gallery-item aspect-ratio-1x1">
+
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/300x400" alt="Image 2" class="img-fluid gallery-item aspect-ratio-1x1">
+                <img src="https://via.placeholder.com/300x200" alt="Image 5" class="img-fluid gallery-item aspect-ratio-3x2">
+
+            </div>
+        </div>
+    </section>
+</div>
+<!-- /* --------------------                    ---------------------
+                               Testimonial Slider
+-----------------------------                   -------------------- */ -->
+<div class="container">
+    <div class="row">
+       
+        <div class="col-lg-6">
+            <div class="testimonial">
+                <h2 class="testimonial-heading">Testimonial Heading</h2>
+                <div class="testimonial-content">
+                    <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."</p>
+                    <p>- John Doe</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/300x200" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://via.placeholder.com/300x200" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+
+
+    </div>
+</div>
+
+<!-- /* --------------------                    ---------------------
+                              backgroung image with text
+-----------------------------                   -------------------- */ -->
+
+<div class="background-image-section mt-5">
+    <div class="section-content bg-transparent">
+        <h2>First Line</h2>
+        <h2>Second Line</h2>
+        <h2>Third Line</h2>
+    </div>
+</div>
+<!-- /* --------------------                    ---------------------
+                              para
+-----------------------------                   -------------------- */ -->
+
+<div class="centered-section">
+    <h2>First Section Heading</h2>
+    <p>This is a paragraph with some text. This is a paragraph with some text. This is a paragraph with some text. This is a paragraph with some text.</p>
+    <button class="btn btn-primary">Button</button>
+</div>
+
+<!-- /* --------------------                    ---------------------
+                              multipl images sliding
+-----------------------------                   -------------------- */ -->
+
+
+
+<div class="slider">
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+  <div><img src="https://via.placeholder.com/400x500"></div>
+</div>
+
+<!-- /* --------------------                    ---------------------
+                              testimonial
+-----------------------------                   -------------------- */ -->
+<div class="container testimonial-container">
+    <div class="testimonial">
+        <p class="testimonial-para">“Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam qui aliquid, omnis expedita saepe?”</p>
+        <p class="testimonial-author">Raghu Eddu</p>
+    </div>
+</div>
+
+<!-- /* --------------------                    --- -----------------
+                            left image - right text 
+-----------------------------                   -------------------- */ -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Left Side Image">
+      </div>
+      <div class="col-md-6">
+        <h2 class="h2 heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, et?</h2>
+        <p class="mt-lg-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam soluta libero excepturi. Neque sit repellat hic in at sint rerum consequatur dolore? Impedit, sint velit, tenetur molestiae aliquid neque ut quisquam debitis odit libero asperiores, ipsa quidem fugiat totam!</p>
+       
+        <div class="gap"></div> <!-- Add a gap -->
+        <button type="button" class="btn btn-primary">Button</button>
+      </div>
+    </div>
+  </div>
+
+
+<!-- /* --------------------                    --- -----------------
+                            text - image-text
+-----------------------------                   -------------------- */ -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Lorem, ipsum dolor.</h1>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="https://via.placeholder.com/200" class="img-fluid" alt="Center Image">
+      </div>
+      <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere, exercitationem quam ipsum vero alias commodi maiores esse fugiat, soluta ut nam eligendi autem ratione molestias neque magnam magni. Voluptate!</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+     <!-- Bootstrap Bundle with Popper (for Bootstrap JavaScript) -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-mTyTgO0FrbuYZj17SJvOwjJgsRVXpR05PzR4Kk2xva5vfJxoL2jXc0p2bD6zrSGh" crossorigin="anonymous"></script>
+
+     <script src="./script.js"></script>
+
+</body>
+</html>
